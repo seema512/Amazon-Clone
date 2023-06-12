@@ -1,0 +1,246 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(0deg, rgb(224, 221, 221), pink 80%);
+}
+
+.title-bar{
+    display: flex;
+    background-color: #0f1111;
+    margin: 0;
+    padding: 7px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+@media (max-width: 1210px){
+    .titleBar2{
+        font-size: 9px;
+    }
+}
+.amazon-logo{
+    width: 120px;
+    margin: 10px 0px 10px 10px;
+}
+.amazon-logo img{
+    width: 80%;
+}
+
+@media (max-width: 1210px){
+    .amazon-logo img{
+        width: 60%;
+    }
+}
+@media (max-width: 950px){
+    .amazon-logo img{
+        width: 45%;
+    }
+}
+.address{
+    /* margin-left: 30px; */
+    display: grid;
+    grid-template-columns: 20px 2fr;
+    font-size: 14px;
+}
+.search-box{
+    display: flex;
+    flex-wrap: nowrap;
+    /* margin-left: 30px; */
+}
+.form-outline{
+    width: 550px;
+    /* margin-left: 0; */
+    display: inline-block;   
+}
+
+@media (max-width: 1210px){
+    .form-outline{
+        width: 350px;
+    }
+    .title-bar{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1060px){
+    .form-outline{
+        width: 250px;
+    }
+    .title-bar{
+        font-size: 8px;
+    }
+}
+@media (max-width: 950px){
+    .form-outline{
+        width: 200px;
+    }
+    .title-bar{
+        font-size: 7px;
+    }
+}
+@media (max-width: 500px){
+    .form-outline{
+        width: 150px;
+    }
+    .title-bar{
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 1210px){
+    .dropdown-toggle{
+        width: 40px;
+        align-items: center;
+    }
+}
+.dropdown-toggle{
+    width: 50px;
+    background-color: rgb(218, 216, 212);
+    border: none;
+   
+}
+.search-btn{
+    background-color: rgb(245, 181, 63);
+    border: none;
+    
+}
+@media (max-width: 1210px) {
+    .search-btn{
+        width: 40px;
+        align-items: center;
+    }
+}
+.account-lists{
+    display: grid;
+    grid-template-columns: 120px 10px;
+    /* margin: 0 20px; */
+    font-size: 14px;
+   
+}
+.returns-orders{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: 14px;
+    align-items: center;
+    /* margin: 0 20px; */
+    
+}
+
+/* lower title bar*/
+
+.titleBar2{
+    background-color: #242636;
+    display: flex;
+    color: white;
+    font-size: 14px;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+
+/*carousel*/
+
+.carousel-inner{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    height: 250px;
+    margin-bottom: 0;
+    padding-bottom: 10%;
+}
+.carousel-image{
+    display: inline-block;
+    
+}
+.carousel-image img{
+    width: 200px;
+    margin: 0% 20% 10% 0;
+}
+.carousel-text{
+    display: inline-block;
+    margin: 5% 10% 10% 0;
+}
+.watch{
+    width: 250px;
+    margin: 0% 20% 10% 0;
+}
+.first-carousel{
+    background-image: linear-gradient(0deg, pink, rgb(191, 241, 157) 90%);
+}
+.second-carousel{
+    background-image: linear-gradient(0deg, pink, rgb(243, 245, 138) 90%);
+}
+
+/*content*/
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    
+}
+.col-lg-2{
+    background-color: white;
+    margin: 10px 10px;
+    text-align: center;
+    padding: 15px 10px 30px 10px;
+    height: 400px;
+    width: 320px;
+}
+
+.col-lg-2 img{
+    height: 250px;
+    width: 270px;   
+}
+.col-lg-2 div{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 3px;
+}
+
+.col-lg-2 span a{
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+
+/*footer*/
+
+.backToTop{
+    display: flex;
+    background-color: #37475A;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 49px;
+}
+.contactUs{
+    display: flex;
+    background-color: #2a3644;
+    color: white;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 40%;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media (max-width: 510px){
+    .contactUs{
+        font-size: 10px;
+    }
+}
+.GetToKnowUs ul, .ConnectWithUs ul, .MakeMoneyWithUs ul, .LetUsHelpYou ul{
+    list-style: none;
+    
+}
+.GetToKnowUs, .ConnectWithUs, .MakeMoneyWithUs, .LetUsHelpYou{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 2;
+}
